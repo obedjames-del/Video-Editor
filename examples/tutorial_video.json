@@ -1,0 +1,44 @@
+{
+  "scenes": [
+    {
+      "text": "In this tutorial, you'll learn how to build your first mobile app.",
+      "video_query": "coding programming laptop"
+    },
+    {
+      "text": "Step one: Set up your development environment and install the necessary tools.",
+      "video_query": "software installation setup"
+    },
+    {
+      "text": "Step two: Create your project structure and organize your files.",
+      "video_query": "file folder organization"
+    },
+    {
+      "text": "Step three: Design your user interface with modern components.",
+      "video_query": "ui design mobile app"
+    },
+    {
+      "text": "Step four: Write the business logic and connect your backend services.",
+      "video_query": "coding backend development"
+    },
+    {
+      "text": "Step five: Test your application on multiple devices and platforms.",
+      "video_query": "mobile phone testing"
+    },
+    {
+      "text": "Finally, deploy your app to the app store and share it with the world.",
+      "video_query": "app store success"
+    },
+    {
+      "text": "Congratulations! You've just built your first mobile application.",
+      "video_query": "celebration success confetti"
+    }
+  ],
+  "config": {
+    "voice_id": "21m00Tcm4TlvDq8ikWAM",
+    "output_file": "tutorial_mobile_app.mp4",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "orientation": "landscape",
+    "transition_duration": 0.8
+  }
+}

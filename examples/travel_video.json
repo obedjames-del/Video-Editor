@@ -1,0 +1,36 @@
+{
+  "scenes": [
+    {
+      "text": "Discover the hidden gems of Southeast Asia.",
+      "video_query": "southeast asia landscape"
+    },
+    {
+      "text": "From the pristine beaches of Bali with crystal clear waters.",
+      "video_query": "bali beach ocean"
+    },
+    {
+      "text": "To the vibrant street food scene in Bangkok's bustling markets.",
+      "video_query": "bangkok street food market"
+    },
+    {
+      "text": "Experience the ancient temples of Angkor Wat at sunrise.",
+      "video_query": "angkor wat temple sunrise"
+    },
+    {
+      "text": "And end your journey watching the sunset over Ha Long Bay.",
+      "video_query": "ha long bay sunset vietnam"
+    },
+    {
+      "text": "Your adventure awaits. Book your trip today.",
+      "video_query": "adventure travel backpack"
+    }
+  ],
+  "config": {
+    "voice_id": "21m00Tcm4TlvDq8ikWAM",
+    "output_file": "travel_promo.mp4",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "orientation": "landscape",
+    "transition_duration": 1.5
+  }
+}

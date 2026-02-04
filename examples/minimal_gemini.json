@@ -1,0 +1,23 @@
+{
+  "scenes": [
+    {
+      "text": "Artificial intelligence is transforming the way we work and live."
+    },
+    {
+      "text": "From healthcare diagnostics to autonomous vehicles."
+    },
+    {
+      "text": "AI is making the impossible possible."
+    },
+    {
+      "text": "Join us as we explore the future of technology."
+    }
+  ],
+  "config": {
+    "voice_id": "21m00Tcm4TlvDq8ikWAM",
+    "use_gemini": true,
+    "output_file": "ai_future.mp4",
+    "resolution": "1920x1080",
+    "orientation": "landscape"
+  }
+}

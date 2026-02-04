@@ -1,0 +1,24 @@
+{
+  "scenes": [
+    {
+      "text": "Welcome to our amazing product showcase.",
+      "video_query": "modern technology"
+    },
+    {
+      "text": "Our innovative solution helps you work faster and achieve more.",
+      "video_query": "productivity workspace"
+    },
+    {
+      "text": "Get started today and transform your workflow.",
+      "video_query": "success celebration"
+    }
+  ],
+  "config": {
+    "voice_id": "21m00Tcm4TlvDq8ikWAM",
+    "output_file": "product_showcase.mp4",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "orientation": "landscape",
+    "transition_duration": 1.0
+  }
+}
