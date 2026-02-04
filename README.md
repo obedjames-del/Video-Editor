@@ -20,8 +20,26 @@ Create professional videos from simple JSON scripts in seconds. Automatically pu
 
 ## 🚀 Quick Start
 
-### Prerequisites
+> **💻 Running Locally?** See **[LOCAL_SETUP.md](LOCAL_SETUP.md)** for complete local installation guide!
 
+### One-Command Setup (Local Machine)
+
+```bash
+# Clone and run the quick start script
+git clone https://github.com/obedjames-del/Video-Editor.git
+cd Video-Editor
+./quick_start.sh
+```
+
+This will:
+1. ✅ Check Python 3.12+ and FFmpeg
+2. ✅ Install all dependencies
+3. ✅ Verify API keys
+4. ✅ Get you ready to generate videos!
+
+### Manual Setup
+
+**Prerequisites:**
 - Python 3.12 or higher
 - FFmpeg 7.x
 - API keys (all have free tiers):
@@ -29,22 +47,22 @@ Create professional videos from simple JSON scripts in seconds. Automatically pu
   - [ElevenLabs](https://elevenlabs.io) - $5/month for Starter
   - [Google Gemini](https://ai.google.dev) - Free tier available
 
-### Installation
+**Installation:**
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/video-editor.git
-cd video-editor
+git clone https://github.com/obedjames-del/Video-Editor.git
+cd Video-Editor
 
-# Install uv (modern Python package manager)
+# Install uv (recommended - faster)
 curl -LsSf https://astral.sh/uv/install.sh | sh
 
 # Install dependencies
 uv sync
 
-# Set up environment variables
-cp .env.example .env
-# Edit .env and add your API keys
+# API keys are already configured in .env
+# Verify configuration
+uv run video-editor config
 ```
 
 ### Create Your First Video
