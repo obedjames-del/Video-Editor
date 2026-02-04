@@ -15,10 +15,10 @@ class Settings(BaseSettings):
         extra="ignore",
     )
 
-    # API Keys (Required)
-    elevenlabs_api_key: str
-    pexels_api_key: str
-    gemini_api_key: str
+    # API Keys (Required for production, can be empty for testing)
+    elevenlabs_api_key: str = ""
+    pexels_api_key: str = ""
+    gemini_api_key: str = ""
 
     # Default Settings
     default_voice_id: str = "21m00Tcm4TlvDq8ikWAM"

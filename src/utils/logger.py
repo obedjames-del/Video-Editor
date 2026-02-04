@@ -55,6 +55,7 @@ def setup_logging() -> logging.Logger:
 
 def get_logger() -> logging.Logger:
     """Get the application logger."""
+    _ensure_logger()  # Ensure logger is initialized
     return logging.getLogger("video-editor")
 
 
@@ -209,5 +210,13 @@ def print_api_error(service: str, status_code: int, message: str) -> None:
     print_panel(content, title=f"⚠️  {service} API Error", style="red")
 
 
-# Initialize logger on module import
-logger = setup_logging()
+# Logger instance - initialized lazily
+_logger: logging.Logger | None = None
+
+
+def _ensure_logger() -> logging.Logger:
+    """Ensure logger is initialized (lazy initialization)."""
+    global _logger
+    if _logger is None:
+        _logger = setup_logging()
+    return _logger
