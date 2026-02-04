@@ -1,0 +1,28 @@
+{
+  "scenes": [
+    {
+      "text": "Welcome to our amazing video editor! Create professional videos in minutes.",
+      "video_query": "modern video editing software interface"
+    },
+    {
+      "text": "Transform your ideas into stunning visual content with AI-powered automation.",
+      "video_query": "creative digital workspace technology"
+    },
+    {
+      "text": "Join thousands of creators who trust our platform for their video production needs.",
+      "video_query": "happy content creators working"
+    }
+  ],
+  "config": {
+    "voice_id": "21m00Tcm4TlvDq8ikWAM",
+    "output_file": "demo_video.mp4",
+    "resolution": "1920x1080",
+    "fps": 30,
+    "orientation": "landscape",
+    "transition_duration": 1.0,
+    "use_gemini": false,
+    "voice_model": "eleven_multilingual_v2",
+    "voice_stability": 0.5,
+    "voice_similarity_boost": 0.75
+  }
+}
