@@ -65,10 +65,10 @@ async def generate_voiceover(
 
         # Generate audio using async API
         logger.debug("Calling ElevenLabs API...")
-        audio_generator = await client.generate(
+        audio_generator = client.text_to_speech.convert(
             text=text,
-            voice=voice_id,
-            model=model,
+            voice_id=voice_id,
+            model_id=model,
             voice_settings=voice_settings,
         )
 
